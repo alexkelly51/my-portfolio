@@ -1,0 +1,16 @@
+@import url("components/banner.css");
+@import url("components/navbar.css");
+
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: 'Varela Round', sans-serif;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
