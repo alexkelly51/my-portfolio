@@ -1,5 +1,6 @@
 .banner {
-  color: blue;
+  display: flex;
+  color: white;
   text-align: center;
   height: 100vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
@@ -7,6 +8,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgb(85, 202, 249);
+}
+.banner-content {
+    margin: 1em 0 .2em;
+    max-width: 80%;
 }
 .banner h1 {
   font-size: 100px;
@@ -17,6 +23,18 @@
   font-size: 25px;
   font-weight: lighter;
   color: rgb(255, 255, 255);
-  opacity: 0.6;
-  margin-bottom: 30px;
+/*  opacity: 0.6;
+*/  margin-bottom: 30px;
+}
+.icon-white {
+  color: white;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.social-link {
+  font-size: 20px;
 }
