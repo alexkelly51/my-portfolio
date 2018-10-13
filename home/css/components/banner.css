@@ -12,7 +12,7 @@
 }
 .banner-content {
     margin: 1em 0 .2em;
-    max-width: 80%;
+    max-width: 40%;
 }
 .banner h1 {
   font-size: 100px;
@@ -30,9 +30,6 @@
   text-decoration: none;
   color: white;
 }
-.icon-white {
-  color: white;
-}
 .social-links {
   display: flex;
   justify-content: center;
@@ -42,18 +39,9 @@
 .social-link {
   font-size: 20px;
 }
-
-
-.btn-purple {
-    background-color: rgb(104, 77, 146);
-    color: white;
-    font-weight: 500;
-    padding: 10px;
-    border-radius: 4px;
-    width: 100px;
-    text-align: center;
-    display: inline-block;
+.icon-white {
+  color: white;
+  font-size: 65px;
+  margin: 30px;
 }
-a.git_hover:hover {
-   background-color: rgb(198, 20, 20);
-}
+
