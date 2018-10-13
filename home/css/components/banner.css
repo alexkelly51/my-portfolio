@@ -5,10 +5,10 @@
   height: 100vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
-  display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgb(85, 202, 249);
+  flex-direction: column;
 }
 .banner-content {
     margin: 1em 0 .2em;
@@ -26,6 +26,10 @@
 /*  opacity: 0.6;
 */  margin-bottom: 30px;
 }
+.banner a {
+  text-decoration: none;
+  color: white;
+}
 .icon-white {
   color: white;
 }
@@ -37,4 +41,19 @@
 }
 .social-link {
   font-size: 20px;
+}
+
+
+.btn-purple {
+    background-color: rgb(104, 77, 146);
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+}
+a.git_hover:hover {
+   background-color: rgb(198, 20, 20);
 }
