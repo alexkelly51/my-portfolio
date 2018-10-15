@@ -1,7 +1,21 @@
-.skills-section {
-  background-color: green;
+.section {
+  display: flex;
   height: 200px;
+  text-align: center;
+/*  align-items: center;*/
+  justify-content: center;
 }
+
+.skills {
+  background-color: rgb(250, 112, 159);
+}
+
+.skills-content {
+  margin-top: 10px;
+}
+
+
+
 
 .projects {
   background-color: blue;

@@ -2,7 +2,7 @@
   display: flex;
   color: white;
   text-align: center;
-  height: 100vh;
+  height: 100%;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   align-items: center;
@@ -12,7 +12,7 @@
 }
 .banner-content {
     margin: 1em 0 .2em;
-    max-width: 40%;
+    max-width: 550px;
 }
 .banner h1 {
   font-size: 100px;
@@ -30,25 +30,4 @@
   text-decoration: none;
   color: white;
 }
-.social-links {
-  display: flex;
-  justify-content: center;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-.list-inline {
-  font-size: 20px;
-  color: white;
-  font-size: 65px;
-  margin: 30px;
-  list-style: none;
-  padding-left: 0px;
-}
-.list-inline li {
-    display: inline-block;
-    padding: 0px 30px;
-  }
 
-.list-inline a:hover {
-    color: red;
-  }

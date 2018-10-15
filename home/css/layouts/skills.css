@@ -1,4 +1,8 @@
 .skills-section {
-  background-color: green;
+  background-color: rgb(250, 112, 159);
   height: 200px;
+}
+
+.skills-content h2 {
+  text-decoration: underline;
 }
