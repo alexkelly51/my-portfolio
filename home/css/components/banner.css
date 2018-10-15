@@ -36,12 +36,19 @@
   margin-top: 1em;
   margin-bottom: 1em;
 }
-.social-link {
+.list-inline {
   font-size: 20px;
-}
-.icon-white {
   color: white;
   font-size: 65px;
   margin: 30px;
+  list-style: none;
+  padding-left: 0px;
 }
+.list-inline li {
+    display: inline-block;
+    padding: 0px 30px;
+  }
 
+.list-inline a:hover {
+    color: red;
+  }
