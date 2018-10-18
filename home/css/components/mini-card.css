@@ -1,0 +1,19 @@
+.mini-card {
+  display: flex;
+  list-style-type: none;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 20px auto;
+  width: 600px;
+
+}
+
+.mini-card li{
+  border: 2px solid #e3dcdc;
+  background-color: #fff7f7;
+  color: #565656;
+  font-weight: 700;
+  width: 7.8em;
+  padding: .3em .2em;
+  margin: .3em;
+}

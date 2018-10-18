@@ -3,6 +3,8 @@
   height: auto;
   text-align: center;
   justify-content: space-around;
+  padding-top: 4vh;
+  padding-bottom: 7vh;
 }
 
 .skills {
@@ -13,11 +15,8 @@
   margin-top: 10px;
 }
 
-
-
-
 .projects {
-  background-color: blue;
+  background-color: white;
 }
 
 .about {
