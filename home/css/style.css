@@ -2,9 +2,11 @@
 @import url("components/navbar.css");
 @import url("components/social_links.css");
 @import url("components/cards.css");
+@import url("components/avatar.css");
 @import url("layouts/links.css");
 @import url("layouts/projects.css");
 @import url("layouts/about.css");
+
 
 
 body {
@@ -24,5 +26,10 @@ h1, h2, p {
 }
 
 h2 {
-  text-decoration: underline;
+  /*border-bottom: 3px white solid;*/
+}
+
+.section-header {
+  display:inline-block;
+  border-bottom: 3px white solid;
 }

@@ -1,9 +1,8 @@
 .section {
   display: flex;
-  height: 200px;
+  height: auto;
   text-align: center;
-/*  align-items: center;*/
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .skills {
@@ -19,10 +18,8 @@
 
 .projects {
   background-color: blue;
-  height: 200px;
 }
 
 .about {
   background-color: pink;
-  height: 200px;
 }
