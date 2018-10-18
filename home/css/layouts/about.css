@@ -7,6 +7,17 @@
   padding-bottom: 7vh;
 }
 
+.section-header {
+  display:inline-block;
+  border-bottom: 3px white solid;
+}
+
+.pink-underline {
+  border-bottom: 3px rgb(250, 112, 159) solid;
+  color: #404040;
+}
+
+
 .skills {
   background-color: rgb(250, 112, 159);
 }
